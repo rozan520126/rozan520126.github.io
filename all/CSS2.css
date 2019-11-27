@@ -1,0 +1,26 @@
+a{color:black;}
+
+.underline{box-shadow:0px 3px;
+          }
+.hobby-2{
+	
+	width: 130px;
+	height:150px;
+}
+.school{
+	width:100px;
+}
+.expc{width:240px;
+	height:180px;
+}
+
+.img{transform:rotate(90deg);} 
+/*.no-gutters {
+margin-right: 0;
+margin-left: 0;
+}
+.no-gutters > .col,
+.no-gutters > [class*="col-"] {
+padding-right: 0;
+padding-left: 0;
+}*/

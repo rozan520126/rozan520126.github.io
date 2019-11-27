@@ -1,0 +1,177 @@
+html, body {
+    /* 設定body高度為100% 拉到視窗可視的大小 */
+    height: 100%;
+}
+
+#id_wrapper {
+    /* 設定高度最小為100%, 如果內容區塊很多, 可以長大 */
+    min-height: 100%;
+    /* 位置設為relative, 作為footer區塊位置的參考 */
+    position: relative;
+}
+body{
+background-color: #FFF5EE
+}
+/*欄位*/
+.header{
+top:0px;
+width:100%;
+height:50px;
+background-color: steelblue;
+position:fixed;
+/*top:-65px*/
+
+/* CSS3 陰影
+-webkit-box-shadow: 0px 8px 15px #333;
+-moz-box-shadow: 0px 8px 15px #333;
+box-shadow: 0px 8px 15px #333;	*/ }
+div.view{
+width:180px;
+height:40px;
+float:right;
+text-align: center;
+color: white;
+}
+/*欄位下空格*/
+.space{
+background-color: #FFF5EE;
+width:100%;
+height:80px;
+float:left;
+}
+/*Banner*/
+.toppc{
+height:300px;
+width: 100%;
+ }
+.icon
+{  
+height:200px;
+width: 100%;
+margin-top: 40px;
+background-color:gainsboro;
+
+}
+/*自我介紹*/
+
+.aboutme{
+width:100%;
+height:300px;
+background-color:#fffaf3;
+float:left;
+color#f9c81e;
+}
+
+.me{width:450px;
+	height:300px;
+
+
+transformrotate(90deg);
+}
+
+/*聯絡資訊*/
+.sidebar{
+width:100%;
+height:450px;
+
+background-colorgainsboro; 
+}
+.sidebar2{
+width:100%;
+height:250px;
+background-color:white;gainsboro; 
+}
+/*興趣*/
+.hobby{
+	height:250px;
+	background-color:#fffaf3;
+	
+}
+.hobby-1{
+	width: 80%;
+	height:250px;
+	background-color:black;#fffaf3;
+	margin:0 auto;
+	/*order-radius:30px;*/
+	color:#f9c81e;
+	line-height:50px;
+	text-align:center;
+}
+.hobby-2{width: 50px;
+	height:40px;}
+/*學經歷*/
+.experience{
+width: 100%;
+	height:680px;
+	float:left;
+	background-color:lightblue;
+}
+.education{
+width: 100%;
+	height:680px;
+	float:left;
+	background-color:lightblue;
+}
+/*期許*/
+.wish-out{
+width: 100%;
+	height:400px;
+float: left;	
+	background-color#F5F5DC;
+}
+.wish-in{
+background-colorlightgray;
+width: 55%;
+height:300px;
+margin:0 auto;
+border-radius:30px;
+border-style:outset;
+border-width:9px;
+text-align:left;	
+}
+.wish{
+width:600px;
+   height:500px;
+   margin:0 auto;
+transformrotate(90deg);
+}
+.wishpc{
+	width:600px;
+   height:500px;
+
+
+}
+
+/*照片*/
+.life-out{
+width: 100%;
+	height:500px;
+float: left;	
+	background-color:#F5F5DC;
+}
+.life-in{
+width: 80%;
+height:440px;
+margin:0 auto;
+	background-color:lightgray;
+}
+.lifepc{
+	width:240px;
+	height:180px;
+}
+.school{width:200px;
+height:100px;}
+.Footer{
+width:100%
+height:50px;
+text-align:center;
+line-height:30px;
+font-size:15px;
+color:#fffaf3;
+font-weight:bold;
+background-color:#f9c81e;
+
+
+  
+    
+}
