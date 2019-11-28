@@ -1,6 +1,7 @@
 html, body {
     /* 設定body高度為100% 拉到視窗可視的大小 */
     height: 100%;
+    font-family:"微軟正黑體";
 }
 
 #id_wrapper {
@@ -10,7 +11,8 @@ html, body {
     position: relative;
 }
 body{
-background-color: #FFF5EE
+background-color: #FFF5EE;
+
 }
 /*欄位*/
 .header{
@@ -31,6 +33,8 @@ height:40px;
 float:right;
 text-align: center;
 color: white;
+font-family:fantasty;
+
 }
 /*欄位下空格*/
 .space{
@@ -56,71 +60,70 @@ background-color:gainsboro;
 
 .aboutme{
 width:100%;
-height:300px;
+height:295px;
 background-color:#fffaf3;
 float:left;
-color#f9c81e;
 }
 
 .me{width:450px;
 	height:300px;
-
-
-transformrotate(90deg);
 }
 
 /*聯絡資訊*/
 .sidebar{
 width:100%;
 height:450px;
-
-background-colorgainsboro; 
 }
 .sidebar2{
 width:100%;
 height:250px;
-background-color:white;gainsboro; 
+background-color:white;
 }
 /*興趣*/
 .hobby{
 	height:250px;
-	background-color:#fffaf3;
+	background-color:steelblue;
 	
 }
 .hobby-1{
 	width: 80%;
 	height:250px;
-	background-color:black;#fffaf3;
+	background-color:steelblue;
 	margin:0 auto;
-	/*order-radius:30px;*/
-	color:#f9c81e;
+	color:#F5F5DC;
 	line-height:50px;
 	text-align:center;
 }
 .hobby-2{width: 50px;
 	height:40px;}
 /*學經歷*/
+
+
 .experience{
 width: 100%;
-	height:680px;
+	height:700px;
 	float:left;
 	background-color:lightblue;
 }
+
 .education{
 width: 100%;
-	height:680px;
+	height:700px;
 	float:left;
 	background-color:lightblue;
 }
+.expc{width:240px;
+	height:180px;
+}
+
 /*期許*/
 .wish-out{
 width: 100%;
-	height:400px;
+height:400px;
 float: left;	
-	background-color#F5F5DC;
+
 }
 .wish-in{
-background-colorlightgray;
 width: 55%;
 height:300px;
 margin:0 auto;
@@ -128,12 +131,12 @@ border-radius:30px;
 border-style:outset;
 border-width:9px;
 text-align:left;	
+font-family:"微軟正黑體";
 }
 .wish{
 width:600px;
    height:500px;
    margin:0 auto;
-transformrotate(90deg);
 }
 .wishpc{
 	width:600px;
@@ -153,7 +156,7 @@ float: left;
 width: 80%;
 height:440px;
 margin:0 auto;
-	background-color:lightgray;
+	background-color:#F5F5DC;
 }
 .lifepc{
 	width:240px;
@@ -170,8 +173,4 @@ font-size:15px;
 color:#fffaf3;
 font-weight:bold;
 background-color:#f9c81e;
-
-
-  
-    
 }
